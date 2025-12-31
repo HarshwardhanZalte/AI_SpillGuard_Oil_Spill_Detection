@@ -48,6 +48,8 @@ The dataset is organized into a directory structure suitable for supervised lear
   - Black (0,0,0): Background (Water, Land, Ships)
   - Specific Color: Oil Spill
 
+Dataset Link: [Download Dataset](https://zenodo.org/records/10555314)
+
 ### 4.2 Data Exploration
 
 During the initial exploration phase, I noticed a significant class imbalance in the dataset. The majority of the images depicted vast stretches of open ocean, with actual oil slicks occupying only a small fraction of the total area. This observation was critical, as it led to the decision to incorporate Data Augmentation techniques to artificially expand the dataset and the use of Weighted Loss Functions to prevent the model from becoming biased toward the background class.
@@ -172,6 +174,8 @@ def combined_loss(y_true, y_pred):
     # Combine Pixel-wise focus (Focal) with Shape focus (Dice)
     return focal_loss()(y_true, y_pred) + dice_loss(y_true, y_pred)
 ```
+
+Download Trained Model: [Download Model](https://drive.google.com/file/d/1ODqgK7i7iKfzbSY3h50JYi15U6zfErfQ/view?usp=sharing)
 
 ---
 
