@@ -1,13 +1,5 @@
 # Project Report: SpillGuard - AI-Driven Oil Spill Identification System
 
-**Program:** Infosys Springboard Virtual Internship  
-**Project Title:** SpillGuard - (AI-Driven System for Oil Spill Identification and Monitoring)
-**Internship Domain:** Artificial Intelligence & Computer Vision  
-**Project Duration:** 8 Weeks  
-**Mentor:** Eekshitha (Infosys Springboard Mentor)  
-**Model Accuracy:** 92.0% (Dice Coefficient)
-
----
 
 ## 1. Summary
 
